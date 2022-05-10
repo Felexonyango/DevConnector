@@ -8,7 +8,7 @@
   "description": "Social network for developers",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon  server",
+    "start": "node  server",
     "server": "nodemon  server",
     "test": "mocha --timeout 50000 --exit",
     "client": "npm start --prefix client",
