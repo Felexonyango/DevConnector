@@ -52,6 +52,6 @@
   "devDependencies": {
     "concurrently": "^5.1.0",
     "nodemon": "^2.0.2",
-    "ws": "3.3.2"
+    "ws": "8.6.0"
   }
 }
