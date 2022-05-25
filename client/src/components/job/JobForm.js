@@ -64,8 +64,8 @@ const JobForm = ({ addjob }) => {
           onChange={e => setBudget(e.target.value)}
           required>
              <option value="select option">select   amount</option> 
-             <option value='0'>Ksh 5,000-10,000</option>
-            <option value='0'>Ksh 10,000-20,000</option>
+             <option value='15,000-40,000'>Ksh 15,000-140,000</option>
+            <option value='50,000-100,000'>Ksh 50,000-100,000</option>
           </select>
        
         </div>
