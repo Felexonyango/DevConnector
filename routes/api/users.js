@@ -20,8 +20,8 @@ router.post(
     .trim(),
     check(
       "password",
-      "Please enter a password with 6 or more characters"
-    ).isLength({ min: 6 })
+      "Please enter a password with 8 or more characters"
+    ).isLength({ min: 8 })
   ],
   async (req, res) => {
     const errors = validationResult(req);
@@ -77,7 +77,7 @@ router.post(
       );
       const transport = nodemailer.createTransport({
         service: 'gmail',
-        secure: false,
+        secure: true,
         auth: {
             user: 'devconnector254@gmail.com',
             
@@ -107,8 +107,7 @@ router.post(
      console.log(error)
    }
    
-   console.log(info.response)
-   
+      
 
     })
     
